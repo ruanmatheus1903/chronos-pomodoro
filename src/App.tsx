@@ -2,15 +2,19 @@
 // App
 // headerHeading
 //ExemploDeComponente
+import { Heading } from './components/Heading';
+
+import'./styles/theme.css';
+import'./styles/global.css';
+
 
 export function App(){
-console.log("oi");
 
 return (
- <div>
-<h1>Olá mundo!</h1>
- <p>RUAN É LINDO</p>
-</div>
+ <>
+ <Heading/>
+ <p>RUAN É LINDo</p>
+</>
 );
 }
 
