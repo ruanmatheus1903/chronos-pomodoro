@@ -1,4 +1,4 @@
-import styles from './Conteiner.module.css'
+import styles from './styles.module.css'
 
 
 type ConteinerProps = {
